@@ -74,7 +74,6 @@ fun UnitConverter() {
         fontSize=16.sp,
         color= Color.Red
     )
-
     fun convertUnits() {
         val inputValueDouble= inputValue.toDoubleOrNull() ?:0.0
         val result=(inputValueDouble * conversionFactor* 100.0 / oConversionFactor).roundToInt() /100.0
